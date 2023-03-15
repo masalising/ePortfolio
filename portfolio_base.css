@@ -5,37 +5,28 @@ Date: February 1, 2023
 Description: WEBD1000 e-portfolio
 */
 
-body{
-    background-color: whitesmoke;
+.menu{
+    padding: 10px 0;
+    display: flex; /* Made the menu inline with Portfolio */
+    align-items: center;
+    justify-content: space-between; /* Made the menu to move at the right end of the page */
+    background-color: #000; /* makes the background color of menu black */
+}
+.menu ul li {
+    display: inline-block; /* Makes the menu horizontal instead of vertical */
+    list-style: none;
+    margin: 10px 15px;
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    justify-content: left;
-
+.menu ul li a{
+    text-decoration: none; /* removes the underline and style in the menu */
+    transition: 0.5s; /* smooth transition for the hover */
+    
 }
 
-h1{
-    font-size: 50px;
-    font-weight: 600;
-    background-image: linear-gradient(to left,#553c9a, #b393d3);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-}
-
-a:link{
-    text-decoration: wavy;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
-
-a:visited{
-    color: burlywood ;
-}
-
-a:hover{
-    color: rebeccapurple;
+.menu ul li a:hover{
+    color: skyblue;
+    /* font-weight: bolder; */
 }
 
 
