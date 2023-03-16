@@ -6,7 +6,7 @@ Description: WEBD1000 e-portfolio
 */
 
 .menu{
-    padding: 10px 0;
+    padding: 10px 0 0 0;
     display: flex; /* Made the menu inline with Portfolio */
     align-items: center;
     justify-content: space-between; /* Made the menu to move at the right end of the page */
