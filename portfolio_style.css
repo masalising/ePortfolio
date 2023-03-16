@@ -6,7 +6,7 @@ Date: February 1, 2023
 Description: WEBD1000 e-portfolio
 */
 
-/* Universal selector* */
+/* ----------Index Style---------- */
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ Description: WEBD1000 e-portfolio
 }
 
 body{
-    color: #fff;
+    
     
 }
 
@@ -64,7 +64,7 @@ body{
     text-decoration: none;
     box-shadow: inset 0 0 0 0 #54b3d6;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-   
+       
 }
 
 .amazing a:hover {
@@ -73,8 +73,9 @@ body{
   }
 
 .content{
-    margin-top: 10%;
-    max-width: 600px;
+    /* margin-top: 10%; */
+    /* max-width: 600px; */
+    color: #fff;
 }
 .content h2{
     font-size: 60px;
@@ -108,49 +109,11 @@ a{
     transition: 0.5s;
 }
 
-/* Contact style */
-input[type=text], textarea{
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
 
-input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
 
-input[type=submit]:hover {
-    background-color: #45a049;
-    
-  }
+/* -----------Contact style----------- */
 
-  /* Add a background color and some padding around the form */
-  #contact{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-  }
-.contact {
-    color: #000;
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 50px;
-    border: 5px solid black;
-    margin: 50px 50px 50px 50px;
-    float: left;   
-    grid-column: span 1/2;    
-    
-  }
+
 
 
 

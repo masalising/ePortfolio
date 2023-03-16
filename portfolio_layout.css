@@ -5,5 +5,11 @@ Date: February 15, 2023
 Description: WEBD1000 e-portfolio
 */
 
-
-/* Begin Media Queries*/
+/* ----Contact---- */
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
