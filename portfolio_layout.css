@@ -25,7 +25,7 @@ Description: WEBD1000 e-portfolio
     .container-contact .content-contact{
       flex-direction: column-reverse;
     }
-   .container-contact .content-contact .left-side{
+   .container-contact .content-contact .left-side {
      width: 100%;
      flex-direction: row;
      margin-top: 40px;
