@@ -40,4 +40,48 @@ Description: WEBD1000 e-portfolio
      margin-left: 0;
    }
   }
+
+/* ----Resume---- */
+/* Responsive layout */
+
+  @media screen and (max-width: 640px) {
+    .right,.left
+    {
+      float:none;
+      position:relative !important;
+      width:100%;
+      min-height:500px;
+    }
+    .handmade {
+    text-align:center !important;
+    margin-top:0px !important;
+  }
+  
+  @media screen and (min-width: 641px) {
+      body
+  { font-size:16px;}
+  }
+  
+  @media screen and (max-width: 60em) {
+      body
+  { font-size:14px;}
+  }
+  .clearfix:after {
+     content: " "; /* Older browser do not support empty content */
+     visibility: hidden;
+     display: block;
+     height: 0;
+     clear: both;
+  }
+  .handmade {
+    text-align:right;
+    margin-top:100px;
+  }
+  .handmade em {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.25em;
+    margin-left:5px;
+  }
+
+}
   
