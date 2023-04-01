@@ -45,6 +45,7 @@ Description: WEBD1000 e-portfolio
 /* Responsive layout */
 
   @media screen and (max-width: 640px) {
+    /*-------------RESUME------------ */
     .right,.left
     {
       float:none;
@@ -52,10 +53,44 @@ Description: WEBD1000 e-portfolio
       width:100%;
       min-height:500px;
     }
-    .handmade {
-    text-align:center !important;
-    margin-top:0px !important;
+
+    .personal-details p{      
+      font-size:1em;
+           
+    }
+
+    /*-------------MENU------------ */
+    .menu {
+      display: none;
+    }
+
+    .hamburger {
+      display: block;
+    }
+
+    nav.active .menu {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 60px);
+      background-color: #fff;
+      position: fixed;
+      top: 60px;
+      left: 0;
+      right: 0;
+      z-index: 999;
+    }
+  
+    nav.active .menu li {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
   }
+  }
+
+    
+    
   
   @media screen and (min-width: 641px) {
       body
@@ -66,22 +101,13 @@ Description: WEBD1000 e-portfolio
       body
   { font-size:14px;}
   }
-  .clearfix:after {
+  .wrapper:after {
      content: " "; /* Older browser do not support empty content */
      visibility: hidden;
      display: block;
      height: 0;
      clear: both;
-  }
-  .handmade {
-    text-align:right;
-    margin-top:100px;
-  }
-  .handmade em {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 1.25em;
-    margin-left:5px;
-  }
+  } 
 
 }
   
