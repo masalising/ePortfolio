@@ -7,12 +7,10 @@ Description: WEBD1000 e-portfolio
 
 /* Responsive layout */
 
-  @media screen and (max-width: 639px) {
-    nav {
-      padding: 0px 10px 0px 10px; /* adds padding around the menu bar */
-    }
-
-  }
+  /* ===============================
+       Mobile Styles: 0px to 640px 
+     ===============================
+*/
 
   @media screen and (max-width: 640px) {
 
@@ -53,11 +51,9 @@ Description: WEBD1000 e-portfolio
     }
 
     #click:checked ~ .menu-btn i:before {
-      content: "\f00d"; /* displays x instead of bars when hamburger is clicked */
+      content: "\f00d"; /* displays x instead of bars when menu is clicked */
     }
       
-
-
     /*-------------CONTACT------------ */
 
     .container-contact{
@@ -100,33 +96,20 @@ Description: WEBD1000 e-portfolio
            
     }
     /*-------------MENU------------ */
-    /* .logo {
-      display: none;
-    }
-     */
-    
+       
 
   }   
     
-  
-  @media screen and (min-width: 768px) {
-      body
-  { font-size:16px;}
-  nav input{
-    display: none;
-  }
-  .container{
-    width: 100%;
-    
-  }
-  
-  }
+  /* 
+  ==============================================
+   Tablet and Desktop Styles: greater than 640px
+  ==============================================
+*/
+  @media screen and (min-width: 641px) {
 
-  @media screen and (min-width: 992px) {
- 
-
-
-
+    /*-------------MENU------------ */
+    .background {
+      height: 100%s;
+     }  
 }
 
-  
