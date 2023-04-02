@@ -27,6 +27,7 @@ Description: WEBD1000 e-portfolio
       display: block;
       text-align: center;
       transition: all 0.5s ease; /* makes the menu bar transition smooth when box is checked */
+      z-index: 1; /* to overlap any div I have so my menu bar will work */
     }
 
     #click:checked ~ ul{ /* activates the menu bar when box is checked*/
@@ -122,14 +123,8 @@ Description: WEBD1000 e-portfolio
   }
 
   @media screen and (min-width: 992px) {
-    body
-  { font-size:16px;}
-  nav input{
-    display: none;
-  }
-  .container{
-    width: 100%;  
-  } 
+ 
+
 
 
 }

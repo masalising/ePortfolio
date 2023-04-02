@@ -25,6 +25,9 @@ nav {
     align-items: center; /* centers the menu vertically */
     justify-content: space-between; /* move the menu to left */
     padding: 0px 50px 0px 50px; /* adds padding around the menu bar */
+    z-index: 1; /* to overlap any div and make sure my menu bar stays on top */
+    position: fixed;
+    width: 100%; /* since the position is fixed, this will maximize the whole width at top of the page */
 }
 
 nav .logo a{
