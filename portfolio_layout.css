@@ -59,6 +59,7 @@ Description: WEBD1000 e-portfolio
     .container-contact{
       width: 90%;
       padding: 30px 40px 40px 35px ;
+      margin-top: 70px;
     }
     .container-contact .content-contact .right-side{
      width: 90%;

@@ -98,117 +98,36 @@ Description: WEBD1000 e-portfolio
 .container-contact .content-contact{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /* to center the media buttons relative to the form */
 }
 
-.container-contact .content-contact .left-side{
-    width: 25%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-    position: relative;
+.media-buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  align-items: center;
 }
 
-.profile-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 370px;
-    width: 100%;
-    height: 353px;
-    background: #fff;
-    border-radius: 24px;
-    padding: 25px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-    position: relative;
-  }
-
-  .profile-card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 36%;
-    width: 100%;
-    border-radius: 24px 24px 0 0;
-    background-color: #4070f4;
-  }
-
-  .image-contact {
-    position: relative;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    background-color: #4070f4;
-    padding: 3px;
-    margin-bottom: 10px;
-  }
-  .image-contact .profile-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 3px solid #fff;
-  }
-
-  .profile-card .text-data {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: #333;
-  }
-  .text-data .name {
-    font-size: 22px;
-    font-weight: 500;
-  }
-  
-  .details{
-    margin: 14px;
-    text-align: center;
-  }
-  .details i{
-    font-size: 15px;
-    color: #3e2093;
-    margin-bottom: 10px;
-  }
-  .details .topic{
-    font-size: 10px;
-    font-weight: 500;
-  }
-  .details .text-one,
-   .details .text-two{
-    font-size: 9px;
-    color: #afafb6;
-  }
-
- .contact-details .details {
-    display: inline-block;
-    margin-right: 20px;
-    vertical-align: top;
-  }
-
-  .profile-card .media-buttons {
-    display: flex;
-    align-items: center;
-    margin-top: 15px;
-  }
-
-  .media-buttons .link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 18px;
-    height: 34px;
-    width: 34px;
-    border-radius: 50%;
-    margin: 0 8px;
-    background-color: #4070f4;
-    text-decoration: none;
-  }
+.media-buttons i{  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.media-buttons .link {
+  padding-left: 0%; /* to center the icons of media buttons */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  margin: 0 8px;
+  background-color: #4070f4;
+  text-decoration: none;
+}
 
 .container-contact .content-contact .right-side{
     width: 75%;
@@ -254,19 +173,21 @@ Description: WEBD1000 e-portfolio
 }
 
 .right-side .button input[type="button"]{
-    color: #fff;
+    color: black;
     font-size: 18px;
     outline: none;
     border: none;
     padding: 8px 16px;
-    border-radius: 6px;
-    background: #3e2093;
+    border-radius: 6px;    
+    background-color: #c8e8e9;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .button input[type="button"]:hover{
-    background-color: #5029bc;
+  background: skyblue;
+  color: white;
+  font-weight: 1000;
 }
 
 /* -----------Resume style----------- */
@@ -281,7 +202,7 @@ Description: WEBD1000 e-portfolio
 
 .left {
   padding-top: 90px; /* menu won't cover the top part of resume */
-  background-color:rgba(0,0,0,.025);
+  background-color:#c8e8e9;
 	border-right:1px solid rgba(0,0,0,.05);
 	float:right;
 	height:100%;
@@ -316,7 +237,7 @@ Description: WEBD1000 e-portfolio
 }
 
 .personal-details h1 em {
-  color:lightblue;
+  color:rgba(0, 0, 0, 0.35);
 	font-style:normal;
 	font-weight:700;
 }
@@ -360,7 +281,9 @@ Description: WEBD1000 e-portfolio
 }
 
 .skill li:hover {
-  background: #3498db;
+  background: #c8e8e9;
+  color: #000;
+  font-weight: 1000;
 }
 
 .skill{
