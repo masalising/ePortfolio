@@ -83,7 +83,7 @@ Description: WEBD1000 e-portfolio
       margin-left: 0;
     }
     /*-------------RESUME------------ */
-    .right,.left
+    .resume-details,.left
     {
       float:none;
       position:relative !important;
@@ -96,7 +96,16 @@ Description: WEBD1000 e-portfolio
            
     }
     /*-------------MENU------------ */
-       
+    .background {
+      background-size: cover;
+      height: 100vh;
+      width: 100vw;
+     }
+
+     .content{  
+      padding-top: 100px;
+      margin-left: 25px;      
+    }
 
   }   
     
@@ -108,8 +117,39 @@ Description: WEBD1000 e-portfolio
   @media screen and (min-width: 641px) {
 
     /*-------------MENU------------ */
-    .background {
-      height: 100%s;
+    .background { /* sets the width and height for the background to cover the whole page */
+      background-size: cover;
+      height: 100vh;
+      width: 100vw;
      }  
 }
 
+/* 
+  ==============================================
+   Desktop: 1024px wide
+  ==============================================
+*/
+
+@media screen and (min-width: 1024px) {
+
+  .personal-details h1 {
+    font-size:2.5em;
+    text-align:center;
+  }
+
+  .personal-details p {
+    color:rgba(0,0,0,.75);
+    font-size:1.2em;
+    line-height:1.5;
+    margin:0 8px 0 0;
+    text-align:center;
+  }
+
+  .resume-details {
+    margin:0 auto;
+    max-width:975px;
+    padding:50px 50px 0px 50px;
+    
+  }
+
+}

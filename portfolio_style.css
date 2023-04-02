@@ -270,3 +270,136 @@ Description: WEBD1000 e-portfolio
 }
 
 /* -----------Resume style----------- */
+
+.resume h1 {
+  color: rgba(0,0,0,.75);
+}
+
+.wrapper-resume {
+  height: 100%;  
+}
+
+.left {
+  padding-top: 90px; /* menu won't cover the top part of resume */
+  background-color:rgba(0,0,0,.025);
+	border-right:1px solid rgba(0,0,0,.05);
+	float:right;
+	height:100%;
+	margin-left:-1px;
+	min-width:256px;
+	position:fixed; /* move the personal details to left */
+	width:33.33%;
+}
+
+.resume-details {
+  float:right;
+	height:100%;
+	position:relative;
+	width:66.66%;
+}
+
+.personal-details {
+  background:rgba(0,0,0,.001);
+	bottom:0;
+	height:100px; /* to center the name and address */
+	left:0;
+	margin:auto;
+	position:absolute;
+	right:0;
+	top:0;
+	width:85%;
+}
+
+.personal-details h1 {
+  font-size:1.5em;
+	text-align:center;
+}
+
+.personal-details h1 em {
+  color:lightblue;
+	font-style:normal;
+	font-weight:700;
+}
+
+.personal-details p {
+  color:rgba(0,0,0,.75);
+	font-size:.75em;
+	line-height:1.5;
+	margin:0 8px 0 0;
+	text-align:center;
+}
+
+.personal-details .name {
+  margin:0 auto;
+	width:85%;
+}
+
+.resume-details {
+  margin:0 auto;
+	max-width:975px;
+	padding:3em;
+  padding-top: 50px; /* menu won't cover the top part of resume */
+  text-align: justify;
+}
+
+.resume-details h1 {
+  font-size:1.75em;
+}
+
+.resume-details p {
+  color:rgba(0,0,0,.5);
+}
+
+.resume-details p em{
+  color:rgba(0,0,0,1);
+	font-style:normal;
+}
+
+.resume-details section{
+  margin:50px auto;
+}
+
+.skill li:hover {
+  background: #3498db;
+}
+
+.skill{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type:none;
+	margin-top:-10px;
+	max-width:570px;
+	padding:0;
+}
+
+.resume-details h3 {
+  padding: 10px 0 20px 0;
+}
+
+.skill li{
+  flex: auto;
+  background:rgba(0,0,0,.75);
+	border-radius:5px;
+	color:#FFF;
+	display:inline-block;
+	list-style:none;
+	margin:15px 15px 0 0;
+	padding:10px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
