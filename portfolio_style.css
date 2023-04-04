@@ -311,6 +311,85 @@ Description: WEBD1000 e-portfolio
 	text-align:center;
 }
 
+/* -----------Goals----------- */
+
+.goals {
+  background: #c8e8e9;
+  color: black;
+  margin: 0;
+}
+
+.goals-detail {
+  padding-top: 100px;
+  width: 95%;
+  max-width: 1220px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.goals-detail p {
+  margin: 0 0 13px 0;  
+}
+
+.goals-detail p {
+  margin: 0 0 13px 0;
+}
+
+.goal-grid{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.goals-detail .center {
+  text-align: center;
+  
+}
+
+.goals-detail .g1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  position: relative;
+}
+
+.goals-detail .g1-number {
+  font-size: 10vw;
+  font-weight: 600;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  height: calc(10vw + 20px);
+  transition: all 0.2s ease-in;
+}
+
+.goals-detail .g-content {
+  border-top: 2px solid #fff;
+  display: grid;
+  /* grid-template-columns: 1fr 4fr; */
+  padding: 15px 0;
+}
+
+.g-content .g-details {
+  line-height: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

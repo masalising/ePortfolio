@@ -108,6 +108,10 @@ Description: WEBD1000 e-portfolio
       margin-left: 25px;      
     }
 
+     /*-------------GOALS------------ */
+
+     
+
   }   
     
   /* 
@@ -133,6 +137,8 @@ Description: WEBD1000 e-portfolio
 
 @media screen and (min-width: 1024px) {
 
+   /*-------------RESUME------------ */
+
   .personal-details h1 {
     font-size:2.5em;
     text-align:center;
@@ -142,14 +148,36 @@ Description: WEBD1000 e-portfolio
     color:rgba(0,0,0,.75);
     font-size:1.2em;
     line-height:1.5;
-    margin:0 8px 0 0;
+    /* margin:0 8px 0 0; */
     text-align:center;
   }
 
   .resume-details {
     margin:0 auto;
     max-width:975px;
-    padding:50px 50px 0px 50px;
+    padding:50px 50px 0px 0px;
+    
+  }
+
+  /*-------------GOALS------------ */
+
+  .goals-detail {
+    padding-top: 100px;
+    width: 95%;
+    text-align: justify;
+    max-width: 100%;
+    margin-right: 50px;
+    
+  }
+
+  .goals-detail .center{
+    font-size: 5vw;   
+    
+  }
+
+  .goals-detail .g-details p{
+    font-size: 2vw;
+    line-height: 1.5;
     
   }
 
