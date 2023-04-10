@@ -179,7 +179,7 @@ Description: WEBD1000 e-portfolio
     border: none;
     padding: 8px 16px;
     border-radius: 6px;    
-    background-color: #c8e8e9;
+    background-color: bisque;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -263,7 +263,7 @@ Description: WEBD1000 e-portfolio
   text-align: justify;
 }
 
-.resume-details h1 {
+.resume-details h2 {
   font-size:1.75em;
 }
 
@@ -314,7 +314,7 @@ Description: WEBD1000 e-portfolio
 /* -----------Goals----------- */
 
 .goals {
-  background: #c8e8e9;
+  
   color: black;
   margin: 0;
 }
@@ -352,7 +352,7 @@ Description: WEBD1000 e-portfolio
 }
 
 .goals-detail .g1-number {
-  font-size: 10vw;
+  font-size: 8vw;
   font-weight: 600;
   padding: 10px 0;
   position: sticky;
@@ -372,8 +372,14 @@ Description: WEBD1000 e-portfolio
 .g-content .g-details {
   line-height: 26px;
 }
+.g1-number {
+  background: #c8e8e9;
+}
 
 /* -----------Skills----------- */
+.skills{
+  background: #c8e8e9;
+}
 
 .skills-wrapper {
   width: 90%;  /* Reduce width for smaller screens */
@@ -382,6 +388,7 @@ Description: WEBD1000 e-portfolio
   transform: translate(-50%,-50%);
   left: 50%;
   top: 50%;
+  
 }
 
 .skills-container {

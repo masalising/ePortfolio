@@ -135,7 +135,7 @@ Description: WEBD1000 e-portfolio
           justify-content: space-between;
           padding-bottom: 50px;                 
       }
-      #percent {
+      .percent {
         text-align: right;
       }     
                   
